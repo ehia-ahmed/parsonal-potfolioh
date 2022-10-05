@@ -10,79 +10,64 @@ Version:1 */
     list-style: none;
 }
  body{
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passions+Conflict&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700&display=swap');
-
+    background-color: rgb(206, 193, 193);
  }
 
-
-
 .bg-color{
-    background-color:#051937;
+    border-radius: 10px;
+    background-color:#031225;
     
+}
+.pot-bg{
+  background-color: rgb(187, 164, 164) !important;
+}
+
+.bg-nav{
+  background-color: #4a5161;
 }
 
 /* navbar style */
-.navbar-light .navbar-nav .nav-link {
-  color: rgb(241, 233, 233);
+.navbar-brand{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(240, 224, 134) !important;
+}
+.navbar-nav .nav-item a{
+  margin: 2px;
+  padding: 2px;
+  color:#010e24 !important;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.navbar-nav .nav-item a:hover{
   
-}
-button i{
-    font-size: 20px;
-    width: 20px;
-    outline: none;
-    border: none;
-    
+  border-bottom: 3px solid black;
+  transition: 0.3s;
 }
 
-.navbar-toggler:focus{
-    outline: none !important;
-    box-shadow: none;
-    border: none;
-}
+.container .navbar-nav button{
 
-
-
-
-/* search bar style */
-.src-bar input{
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    padding: 10px;
-    box-shadow: 16px 19px 34px 13px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),-20px -10px 19px -43px rgba(0,0,0,0.1),0px 10px 15px 10px rgba(0,0,0,0.1),-6px 10px 15px 10px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+ border: none;
 
 }
-
-.src-bar button {
-    background-color:#0b2650;
-    width: 30px;
-    height: 30px;
-    box-shadow: 16px 19px 34px 13px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),-20px -10px 19px -43px rgba(0,0,0,0.1),0px 10px 15px 10px rgba(0,0,0,0.1),-6px 10px 15px 10px rgba(0,0,0,0.1);
-
+.container .navbar-nav button a{
+  color: #010e24;
+  text-decoration: none;
 }
 
-.navbar-nav{
- align-items: center;
+.container .navbar-nav button a:hover{
+  color: #fff;
 }
-/* 
-.src-bar button i{
-    color: #fff;
-} */
-
-/* navbar style */
 
 /* banner style */
 
-
-
 .navbar-color{
-    background-color: #031225;
-    
+    background-color: #031225;   
 }
-.nav-style {
-    
+
+.nav-style {    
     font-size: large;
     font-weight: bold;
     color: #0b2650;
@@ -105,38 +90,39 @@ h1,h2,h3,h4,h5,h6,p{
     color: #051937;
 }
 
+.font-color{
+  color: #fff;
+}
+
 button{
-    background-color: #0b2650;
+    background-color: #fff;
     width: auto;
-    font-size:12px;
+    font-size:15px;
     height: 40px;
     padding: 5px 20px;
-    color: #fff;
+    color: #0b2650;
     font-weight: bold;
     outline: none;
     border: none;
     border-radius: 5px;
+    border: 2px solid #fff;
 }
+
 .view-btn{
-    background-color: rgb(224, 199, 199) !important;
+    background-color: rgb(245, 239, 239) !important;
     color: #0b2650;
 }
 
 button:hover{
-   
-    background-color: #0b2650 !important;
+    background-color: #051937 !important;
     color: rgb(243, 241, 239) !important;
     transition: 0.3s;
 }
 
-
-
-
-
-
 /* banner style */
+
 .banner{
-   background-image: url(../images/pngwing.com.png) !important;
+   background-image:linear-gradient(#05193773,#0519375e,#051937e0,#051937),url(../images/pngwing.com.png) !important;
    background-repeat: no-repeat;
    background-size: cover;
    
@@ -153,15 +139,17 @@ button:hover{
     /* border: 2px solid red; */
     box-shadow: 16px 19px 34px 13px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),-20px -10px 19px -43px rgba(0,0,0,0.1),0px 10px 15px 10px rgba(0,0,0,0.1),-6px 10px 15px 10px rgba(0,0,0,0.1);
     transition: 0.5s;
-    margin-top: 100px;
-}
-.skill-card:hover
-{
-   height: 250px;
+    margin-top: 50px;
 }
 
-.imgbox
-{
+.skill-card:hover{
+
+   height: 250px;
+
+}
+
+.imgbox{
+
     position: absolute;
     left: 50%;
     top: -50px;
@@ -185,6 +173,7 @@ button:hover{
 }
 
 .skill-card:hover .imgbox{
+  
     width: 100px;
     height: 100px;
 }
@@ -313,9 +302,8 @@ transition: 0.5s;
 }
 
 
-
-
 /* content style */
+
 .submit-sms{
     width: 500px;
     height: 300px;
@@ -346,6 +334,7 @@ transition: 0.5s;
 }
 
 /* address icon and font style */
+
 .fac_icon{
     
     color:  #4267B2;
@@ -371,10 +360,13 @@ transition: 0.5s;
 }
 
 /* footer stylhe */
+
 footer {
-    background-color: #010e24;
+    background-color:#4a5161;
 }
+
  /* Animation */
+
  .css-typing{
     border-right: .15em solid rgb(44, 42, 39);
     /* font-family: "Courier";
@@ -402,7 +394,7 @@ footer {
   }
   
   .css-typing{
-    width: 15.7em;
+    width: 8.8em;
     opacity: 0;
     -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;

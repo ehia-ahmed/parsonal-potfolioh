@@ -21,57 +21,46 @@
 <body>
 
     <header>
-        <section>
-        <div class="search-bar bg-color d-block ">
-          <div class="container  d-flex justify-content-between  p-3">
-            <div class="logu">
-              <img src="images/logu/logu.png" alt="" style="height: 40px; width: 40px;">
-            </div>
-            <div class="src-bar">
-                <input type="text">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+       <section>
+       <div class="bg-nav">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container">
+            <a class="navbar-brand" href="#">EhiaAhmed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skill</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+
+                <button><a href="#">sign in</a></button>
+                
+              </ul>
             </div>
           </div>
-        </div>
-        </section>
-
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-light navbar-color">
-                <div class="container " style="height: 50px;" >
-                  <h4>Ehia</h4>
-                  <button class="navbar-toggler responsibe" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
-                    <i class="fa-sharp fa-solid fa-bars"></i>
-                  </button>
-                  <div class=" justify-content-end collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item nav-style">
-                      <div class="d-flex align-items-center" >
-                        <a class="nav-link" href="#home">Home</a>
-                      </li>
-                      <li class="nav-item nav-style">
-                        <a class="nav-link" href="#about">About</a>
-                      </li>
-                      <li class="nav-item nav-style">
-                        <a class="nav-link" href="#skill">Skill</a>
-                      </li>
-                      <li class="nav-item nav-style">
-                        <a class="nav-link" href="#service" >Service</a>
-                      </li>
-                      <li class="nav-item nav-style">
-                        <a class="nav-link" href="#portfolio" >Portfolio</a>
-                      </li>
-                      <li class="nav-item nav-style">
-                        <a class="nav-link" href="#contact" >Contact</a>
-                      </li>
-
-                      <button> <a href="https://ehia-ahmed.github.io/sign-card/" target="blank"> sign in</a></button>
-
-                    </ul>
-                    
-                  </div>
-                </div>
-              </nav>
-        </section>
+        </nav>
+       </div>
+       </section>
     </header>
 
     <main>
@@ -82,10 +71,10 @@
                 <div  data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1500" class="col-xl-6 col-md-6 col-sm-12 banner-info">
-                  <h1 class="text-uppercase">Hello<hr></h1>
-                  <h2 class="css-typing">I AM EHIA AHMED</h2>
-                  <h3>A Web Designer</h3>
-                  <p>
+                  <h1 class="text-uppercase font-color">Hello<hr></h1>
+                  <h2 class="css-typing font-color">I AM EHIA AHMED</h2>
+                  <h3 class="font-color">A Web Designer</h3>
+                  <p class="font-color">
                     Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
                   </p>
                   <button>HIRE ME <i class="fa-solid fa-arrow-right"></i></button>
@@ -94,7 +83,7 @@
                 <div  data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="3000" class="col banner-img text-end">
-                  <img class="img-fluid" src="images/man.png" alt="">
+                  <img class="img-fluid rounded-circle" src="images/man.png" alt="" style="height:400px; width: 350px;">
                 </div>
                </div>
             </div>
@@ -111,7 +100,7 @@
               <div data-aos="fade-up"
               data-aos-easing="linear"
               data-aos-duration="3000" class="jumbotron">
-                <img class="float-start rounded-circle p-3" src="images/man.png" alt="" style=" height:160px; width:160px;">
+                <img class="float-start rounded-circle p-3" src="images/man1.png" alt="" style=" height:160px; width:160px;">
                 <h1 >Hello, world!</h1>
                 <p >This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                 <hr class="my-4">
@@ -119,10 +108,10 @@
             </div>
           </div>
 
-         <div class="about-info bg-color p-3">
+         <div class="about-info  p-3">
           <div data-aos="fade-up"
           data-aos-easing="linear"
-          data-aos-duration="2000" class="container">
+          data-aos-duration="2000" class="container p-5 bg-color">
             <h2 class="text-light">PERSONAL DETAILS</h2>
             <p class="text-light">It uses utility classes for typography and spacing to space content out within the larger container. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur neque quis voluptatem fugit illo nostrum earum doloribus esse a libero, voluptas deleniti velit blanditiis distinctio minima adipisci repellendus! Corporis! It uses utility classes for typography and spacing to space content out within the larger container. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur neque quis voluptatem fugit illo nostrum earum doloribus esse a libero, voluptas deleniti velit blanditiis distinctio minima adipisci repellendus! Corporis!</p>
            <button class="bg-light text-dark">Learn more</button>
@@ -145,13 +134,13 @@
             </div>
           </div>
 
-          <div class="skill-all-card bg-color">
-            <div class="container">
-              <div class="row d-flex align-items-center g-2 p-5" style="height: auto;" >
+          <div class="skill-all-card">
+            <div class="container  bg-color">
+              <div class="row d-flex  align-items-center g-2 p-5" style="height: auto;" >
                 <div data-aos="flip-down"
                 data-aos-easing="linear"
-                data-aos-duration="1500" class="col col-xl-3">
-                  <div class="skill-card">
+                data-aos-duration="1500" class="col col-xl-3 d-flex justify-content-center align-items-center">
+                  <div class="skill-card ">
                     <div class="imgbox">
                       <img src="images/icon/html.png" alt="">
                     </div>
@@ -171,7 +160,7 @@
 
                 <div data-aos="flip-down"
                 data-aos-easing="linear"
-                data-aos-duration="1500" class="col col-xl-3">
+                data-aos-duration="1500" class="col col-xl-3 d-flex justify-content-center align-items-center">
                   <div class="skill-card">
                     <div class="imgbox">
                       <img src="images/icon/css.png" alt="">
@@ -192,7 +181,7 @@
 
                 <div data-aos="flip-down"
                 data-aos-easing="linear"
-                data-aos-duration="1500" class="col  col-xl-3">
+                data-aos-duration="1500" class="col  col-xl-3 d-flex justify-content-center align-items-center">
                   <div class="skill-card">
                     <div class="imgbox">
                       <img src="images/icon/bootstrap.png" alt="">
@@ -213,7 +202,7 @@
 
                 <div data-aos="flip-down"
                 data-aos-easing="linear"
-                data-aos-duration="1500" class="col  col-xl-3">
+                data-aos-duration="1500" class="col  col-xl-3 d-flex justify-content-center align-items-center">
                   <div class="skill-card">
                     <div class="imgbox">
                       <img src="images/icon/javascript.png" alt="">
@@ -236,7 +225,7 @@
               
                 <div data-aos="flip-up" 
                 data-aos-easing="linear"
-                data-aos-duration="1500" class="col  col-xl-3">
+                data-aos-duration="1500" class="col  col-xl-3 d-flex justify-content-center align-items-center">
                   <div class="skill-card">
                     <div class="imgbox">
                       <img src="images/icon/react.png" alt="">
@@ -257,7 +246,7 @@
 
                 <div data-aos="flip-up" 
                 data-aos-easing="linear"
-                data-aos-duration="1500"  class="col  col-xl-3">
+                data-aos-duration="1500"  class="col  col-xl-3 d-flex justify-content-center align-items-center">
                   <div class="skill-card">
                     <div class="imgbox">
                       <img src="images/icon/nodejs.png" alt="">
@@ -278,7 +267,7 @@
 
                 <div data-aos="flip-up" 
                 data-aos-easing="linear"
-                data-aos-duration="1500"  class="col  col-xl-3">
+                data-aos-duration="1500"  class="col  col-xl-3 d-flex justify-content-center align-items-center">
                   <div class="skill-card">
                     <div class="imgbox">
                       <img src="images/icon/git.png" alt="">
@@ -299,7 +288,7 @@
 
                 <div data-aos="flip-up" 
                 data-aos-easing="linear"
-                data-aos-duration="1500"  class="col  col-xl-3">
+                data-aos-duration="1500"  class="col  col-xl-3 d-flex justify-content-center align-items-center">
                   <div class="skill-card">
                     <div class="imgbox">
                       <img src="images/icon/netlify.png" alt="">
@@ -337,10 +326,10 @@
             </div>
           </div>
 
-          <div  class="service-all-card bg-color text-light p-3 mb-5">
-            <div class="container">
-              <div class="row g-5 mt-5 mb-5">
-                <div data-aos="zoom-in-down" class="col center-sm">
+          <div  class="service-all-card text-light p-3 mb-5">
+            <div class="container  bg-color">
+              <div class="row g-5 mt-5 mb-5 p-5">
+                <div data-aos="zoom-in-down" class="col center-sm d-flex justify-content-center align-items-center">
                   <div class="sr-card  text-center p-3">
                     <img class="mb-3" src="images/icon/web-desing.png" alt="" style="height: 60px; width: 60px;" >
 
@@ -349,8 +338,8 @@
                   </div>
                 </div>
 
-                <div data-aos="zoom-in-down" class="col center-sm">
-                  <div class="sr-card  text-center p-3">
+                <div data-aos="zoom-in-down" class="col center-sm d-flex justify-content-center align-items-center">
+                  <div class="sr-card text-center p-3 ">
                     <img class="mb-3" src="images/icon/web-development.png" alt="" style="height: 60px; width: 60px;" >
 
                     <h3>Web Development</h3>
@@ -358,7 +347,7 @@
                   </div>
                 </div>
 
-                <div data-aos="zoom-in-down" class="col center-sm">
+                <div data-aos="zoom-in-down" class="col center-sm d-flex justify-content-center align-items-center">
                   <div class="sr-card  text-center p-3">
                     <img class="mb-3" src="images/icon/responsive.png" alt="" style="height: 60px; width: 60px;" >
 
@@ -367,7 +356,7 @@
                   </div>
                 </div>
 
-                <div data-aos="zoom-in-down" class="col center-sm">
+                <div data-aos="zoom-in-down" class="col center-sm d-flex justify-content-center align-items-center">
                   <div class="sr-card  text-center p-3">
                     <img class="mb-3" src="images/icon/camera.png" alt="" style="height: 60px; width: 60px;" >
 
@@ -376,7 +365,7 @@
                   </div>
                 </div>
 
-                <div data-aos="zoom-in-down" class="col center-sm">
+                <div data-aos="zoom-in-down" class="col center-sm d-flex justify-content-center align-items-center">
                   <div class="sr-card  text-center p-3">
                     <img class="mb-3" src="images/icon/clipping-path.png" alt="" style="height: 60px; width: 60px;" >
 
@@ -386,7 +375,7 @@
                 </div>
 
 
-                <div data-aos="zoom-in-down" class="col center-sm">
+                <div data-aos="zoom-in-down" class="col center-sm d-flex justify-content-center align-items-center">
                   <div class="sr-card  text-center p-3">
                     <img class="mb-3" src="images/icon/graphics-design.png" alt="" style="height: 60px; width: 60px;" >
 
@@ -426,8 +415,8 @@
             </div>
           </div>
 
-        <div class="protfolioh-card">
-          <div class="container">
+        <div class="protfolioh-card ">
+          <div class="container pot-bg p-5">
             <div class="prot-project">
               <div data-aos="zoom-out-up" 
               data-aos-easing="linear"
@@ -496,9 +485,9 @@
             </div>
           </div>
 
-          <div class="content-info bg-color text-light p-3 ">
-            <div class="container">
-              <div class="row mt-5 mb-5 d-flex align-items-center">
+          <div class="content-info text-light p-3 d-flex">
+            <div class="container bg-color p-5">
+              <div class="row d-flex mt-5 mb-5 ">
                 <div  data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="3000"class="col-xl-6 submit-sms d-flex flex-column">
@@ -512,7 +501,7 @@
 
                 <div  data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="3000" class="address col-xl-6 text-center mt-5">
+                data-aos-duration="3000" class="address col-xl-6  mt-5 text-center">
                   
                   <li><a href="#" class="fac_icon"><i class=" fac_icon fa-brands fa-facebook-f"></i> https://web.facebook.com</a></li>
 
@@ -536,7 +525,7 @@
     </main>
 
     <footer class="text-primary d-flex justify-content-center align-items-center" style="height: 100px; ">
-      <p class="css-typing text-light">copyright@Ehiaahmed/2022</p>
+      <p>copyright@Ehiaahmed/2022</p>
     </footer>
     
 
